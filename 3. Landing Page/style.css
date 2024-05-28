@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: whitesmoke;
+}
+
+nav{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 7%;
+}
+
+.nav-h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;   
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.links a:hover{
+    color: rgb(78, 78, 78);
+}
+
+.search-bar{
+    border-bottom: 1px solid black;
+}
+
+.search-bar span{
+    color: rgb(78, 78, 78);
+    padding: 2px;
+    cursor: pointer;
+}
+
+.search-bar span i{
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+
+.search-bar span:hover{
+    color: rgb(48, 47, 47);
+    transition: 0.5s;
+}
+
+.account i{
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 60px;
+}
+
+section{
+    height: 88%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    overflow: hidden;
+}
+
+.body-txt{
+    height: 88%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-left: 70px;
+}
+
+.body-txt .h1{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.body-txt span{
+    color: rgb(170, 86, 86);
+}
+
+.body-txt p{
+    font-size: 20px;
+}
+
+.body-txt p>span{
+    color: rgb(170, 86, 86);
+}
+
+.body-txt button{
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 5px 5px ;
+    transition: 0.5s;
+}
+
+.body-txt button:hover{
+    background-color: rgb(203, 201, 201);
+}
+
+.body-img{
+    height: 88%;
+    width: 40%;
+}
+
+.body-img img{
+    height: 650px;
+    width: 100%;
+    object-fit: fill;
+    box-shadow: -10px 0px 5px rgb(137, 64, 64);
+}
