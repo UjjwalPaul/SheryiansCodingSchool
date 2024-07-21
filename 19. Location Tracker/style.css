@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    html, body{
+    height: 100%;
+    width: 100%;
+    }
+    
+    body{
+        background-image: linear-gradient(90deg, rgb(253, 253, 185), #616161);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .container{
+        width: 80%;
+        height: 90%;
+        background-color: rgb(105, 96, 238);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 2px 2px 10px;
+        border-radius: 1rem;
+    }
+    
+    .container> h1{
+        color: white;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+    
+    .box{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(240, 240, 240);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    
+    
+    .box > .left{
+        width: 50%;
+        height: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box > .right{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+       
+    }
+    
+    .g{
+        margin-bottom: 15px;
+    }
+    
+    
+    .line1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 20px;
+    }
+    
+    .line1 > .c1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    gap: 5px;
+    }
+    
+    .line2> .loc{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+        margin-bottom: 5px;
+        gap: 5px;
+    }
+    .line2> .loc > input{
+        width: 240px;
+        height: 30px;
+        padding-left: 10px;
+    }
+    .line2> .loc > .ri-map-pin-3-line{
+      color: blue;
+      font-size: larger;
+      font-weight: 600;
+    }
+    .line2> .loc > .ri-map-pin-2-line{
+      color: rgb(255, 0, 0);
+      font-size: larger;
+      font-weight: 600;
+    }
+    
+    .line3 >p{
+     color: grey;
+     font-size: 15px;
+    }
+    
+    .line4{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .line4 >button{
+       padding: 5px 10px;
+       font-size: 16px;
+       font-weight: bold;
+       background-color: rgb(0, 101, 168);
+       border: none;
+       border-radius: 5px;
+       color: white;
+    }

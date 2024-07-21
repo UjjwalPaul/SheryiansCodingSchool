@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.background{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1668718031554-9c05b5d03750?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 75%;
+    height: 80%;
+    background-color: rgb(156, 156, 156);
+    border-radius: 10px;
+    opacity: .8;
+    box-shadow: 2px 2px 10px;
+    /* filter: blur(1px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.box{
+  /* background-color: rgb(241, 241, 234); */
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.search_bar{
+  width: 100%;
+  padding: 30px 30px 15px 30px;
+  /* background-color: aqua; */
+}
+
+.search_bar > i{
+  font-size: 35px;
+  color: #000000;
+}
+
+.search_bar > span{
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(228, 228, 228);
+  padding-left: 25px;
+}
+
+.search_bar > .line{
+  height: 2px;
+  width: 100%;
+  background-color: rgb(88, 88, 87);
+  margin-top: 10px;
+}
+
+.settings{
+  /* background-color: red; */
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  }
+  
+  .setting_box {
+  background-color: rgb(179, 179, 179);
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  height: 150px;
+  width: 210px;
+  margin: 1.5px .8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.setting_box > i{
+  font-size: 40px;
+  /* color: rgb(243, 240, 240); */
+  color: rgb(52, 52, 52);
+}
+
+.setting_box > h1{
+  font-size: 20px;
+  /* color: rgb(48, 48, 48); */
+  color: rgb(52, 52, 52);
+}
+
+.setting_box > p{
+  font-size: 12px;
+  color: rgb(133, 133, 133);
+}
+
+#box3{
+  background-color: rgb(232, 229, 229);
+}
+
+#box5, #box8{
+  padding: 20px;
+}
+

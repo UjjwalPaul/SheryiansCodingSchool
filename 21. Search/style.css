@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    }
+    
+    html, body{
+    height: 100%;
+    width: 100%;
+    }
+    body{
+        background-color: #202124;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100%;
+        height: 10vh;
+    }
+    
+    nav>.right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        gap: 20px;
+        padding: 10px;
+    }
+    
+    nav>.right>.lab{
+    width: 20px;
+    height: 20px;
+    }
+    nav>.right>.pro{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    }
+    
+    nav>.right:hover{
+     cursor: pointer;
+    }
+    
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    section>img{
+        padding-top: 100px;
+        width: 350px;
+    }
+    
+    
+    section > .search{
+        display: flex;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        border-radius: 18px;
+        padding: 0 10px;
+    }
+    
+    section > .search>i{
+    color: grey;
+    font-size: 25px;
+    }
+    section > .search>input{
+        color: black;
+        width: 400px;
+        padding: 10px;
+        border: none;
+        outline: none;
+    }
+    section > .search>img{
+    width: 40px;
+    }
+    
+    .btns{
+        display: flex;
+        gap: 20px;
+    }
+    
+    button{
+        padding: 5px 20px;
+        color: #202124;
+        border: none;
+        border-radius: 5px;
+    }
+    button:hover{
+        
+    background-color: rgb(112, 169, 219);
+    color: white;
+    cursor: pointer;
+    }
+    
+    section >.last{
+        display: flex;
+        gap: 10px;
+    }
+    section >.last>p{
+        color: grey;
+    }
+    section >.last> ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        font-size: 15px;
+        gap: 10px;
+    }
+    
+    section >.last> ul>li{
+    color: rgb(111, 149, 219)
+    }
+    section >.last> ul>li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    }

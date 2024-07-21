@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: rgb(237, 236, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+    width: 89%;
+    height: 95%;
+    background-color: rgb(236, 246, 242);
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px;
+}
+
+nav {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://img.freepik.com/free-photo/glasses-lie-laptop-reflecting-light-from-screen-dark_169016-53056.jpg?t=st=1716900801~exp=1716904401~hmac=83093e07480c9d799758ef20894fa2deeb00ee99c990eea8fd0854c1484c359c&w=1380);
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    background-size: cover;
+}
+
+nav img{
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 8%;
+    top: 62%;
+    border: 4px solid white;
+}
+
+section{
+    width: 100%;
+    height: 67%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.personal-details{
+    width: 50%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 70px;
+}
+
+.personal-details>h1{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.personal-details :nth-child(2){
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.personal-details :nth-child(3){
+    color: rgb(85, 84, 84);
+    font-size: 14px;
+}
+
+.personal-details :nth-child(4){
+    color: rgb(85, 84, 84);
+    font-size: 16px;
+}
+
+.personal-details :nth-child(4)>span{
+    /* color: rgb(78, 78, 217); */
+    color: rgba(48, 85, 246, 0.97);
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.personal-details :nth-child(5){
+   color: rgba(48, 85, 246, 0.97);
+   font-size: 17px;
+   font-weight: bolder;
+}
+
+.personal-details :nth-child(6){
+    color: rgb(20, 20, 20);
+
+}
+
+.personal-details :nth-child(6)>span{
+    color: rgba(48, 85, 246, 0.97);
+    font-weight: bold;
+}
+
+.personal-details div{
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.personal-details div button:first-child{
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(48, 85, 246, 0.97);
+    color: white;
+    font-weight: bold;
+}
+
+.personal-details div :nth-child(1)>i{
+    font-weight: bold;
+}
+
+.personal-details div :nth-child(2){
+    color: rgba(48, 85, 246, 0.97);
+    background-color: transparent;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid rgba(48, 85, 246, 0.97); 
+}
+
+.personal-details div :nth-child(3){
+    color: rgb(129, 129, 129);
+    background-color: transparent;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid rgb(129, 129, 129); 
+}
+
+
+.social-icon{
+    width: 50%;
+}
+
+.social-icon div{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+}
+
+.social-icon div> img{
+    width: 30px;
+    margin-right: 50px;
+}
+
+.social-icon div >.first-details{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 150px;
+    font-size: 16px;
+    color: rgb(35, 34, 34);
+}
+
+.social-icon div>.first-details>img{
+    width: 23px;
+}
+
+.social-icon div >.sec-details{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 80px;
+    font-size: 15px;
+    color: rgb(35, 34, 34);
+}
+
+.social-icon .sec-details>img{
+    width: 20px;
+}
+
+
+
+
